@@ -26,7 +26,7 @@
               <a class="nav-link" href="#">Download</a>
             </li>
           </ul>
-          <button class="btn btn-primary rounded-5" type="button" data-toggle="modal" data-target="#exampleModal><i class="bi bi-chat-heart"></i> Send Feedback</button>
+          <button class="btn btn-primary rounded-5" type="button"  data-toggle="modal" data-target="#exampleModal"><i class="bi bi-chat-heart-fill"></i> Send Feedback</button>
         </div>
       </div>
       </nav>
@@ -59,7 +59,7 @@
   </div>
   <!-- testimonial -->
   <div class="bg-testimonial text-center">
-    <h2 class="text-white text-center pt-5 pb-5">"An intuitive solution to a common problem that <br> we all face, wrapped up in a single app!"</h2>
+    <h2 class="text-white text-center pt-5 pb-5">"Becerilerini test etmek için özel etkinliklere katıl ve muhteşem ödüller kazan!!"</h2>
     <img src="/img/logo.png" alt=""
     width="20%" height="20%" class="">
   </div>
@@ -74,8 +74,32 @@
           </div>
         </div>
         <div class="col-lg-8 row text-center justify-content-center">
-            <div class="col-lg-6 ">
-              <i class="bi bi-controller"></i>
+            <div>
+              <div class="row">
+                <div class="col-4">
+                  <i class="bi bi-controller icon"></i>
+                <h2>KULE SAVUNMASI</h2>
+                  <p>Bu oyun, taret savunması ile koleksiyon kartı oyununun benzersiz bir birleşimidir!</p>
+                </div>
+                <div class="col-4">
+                  <i class="bi bi-joystick icon"></i>
+                <h2>KAPSAMLI OYUN DENEYİMİ</h2>
+                  <p>Özel oyun mekaniklerine sahip ve cömert ödüller veren etkinlikler</p>
+                </div>
+            </div>
+            <div>
+              <div class="row">
+                <div class="col-4">
+                  <i class="bi bi-controller icon"></i>
+                <h2>OYUN MODLARI</h2>
+                  <p>Diğer oyunculara karşı oyna veya Ortak mod ile kaleyi birlikte savunmak için onlarla takım kur.</p>
+                </div>
+                <div class="col-4">
+                  <i class="bi bi-upc-scan icon"></i>
+                <h2>PROMOSYON KODLARI</h2>
+                  <p>Bir promosyon kodunu etkinleştirmek için internet sitesine giriş yaparak 12 karakterden oluşan geçerli bir promosyon kodu girmelisin.</p>
+                </div>
+            </div>
             </div>
             <div class="col-lg-6 "></div>
         </div>
@@ -146,13 +170,20 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Send Feedback</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

@@ -73,13 +73,13 @@
     border-radius: 50%;
 }
 .building-container{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 500px;
 }
 .building-bg{
     position: absolute;
-    background-image: url('/img/coding-bg.jpg');
+    background-image: url("/img/coding-bg.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -99,4 +99,10 @@
 }
 .get-app{
     background: radial-gradient(circle, rgba(58,76,168,1) 19%, rgba(252,70,107,1) 84%);
+}
+.modal-header{
+    background: blue;
+}
+.icon{
+    font-size: 50px;
 }
